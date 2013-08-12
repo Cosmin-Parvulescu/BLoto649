@@ -9,9 +9,6 @@ It uses BeautifulSoup for the HTML parsing and web.py to serve a simple page wit
 Future plans:
 
     - Use a task script which updates a Redis back-end every Sunday with the new results
-    
     - Fetch the results from the memory database instead of parsing the archive for every request
-    
     - Beautify
-    
     - Use the numbers to generate some statistics-based draws.
