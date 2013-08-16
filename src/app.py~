@@ -1,5 +1,3 @@
-# Serve an HTML page with the loto numbers and their occurrences.
-
 import web
 from lotodata import *
 

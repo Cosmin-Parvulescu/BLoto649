@@ -1,4 +1,4 @@
-$def with (sorted_numbers_dict)
+$def with (numbers_dict)
 
 <!DOCTYPE html>
 <html>
@@ -8,7 +8,6 @@ $def with (sorted_numbers_dict)
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script>
 			jQuery(function(){
-				alert("Hello World!")
 			})
 		</script>
 
@@ -46,7 +45,7 @@ $def with (sorted_numbers_dict)
 							</thead>
 		
 							<tbody>
-								$for key, val in sorted_numbers_dict:
+								$for key, val in numbers_dict.items():
 									<tr>
 										<td>$key</td>
 										<td>$val</td>
